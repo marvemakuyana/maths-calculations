@@ -1,0 +1,23 @@
+{
+  "name": "maths-calculations",
+  "version": "1.0.0",
+  "description": "retrieve maths calculations via an api",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon backend/server.js",
+    "test": "jest --watchAll"
+  },
+  "author": "Marvellous Makuyana",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3",
+    "http-errors": "^2.0.0",
+    "mathjs": "^10.1.1",
+    "mongoose": "^6.2.4"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "nodemon": "^2.0.15",
+    "supertest": "^6.2.2"
+  }
+}
